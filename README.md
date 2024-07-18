@@ -1,0 +1,2 @@
+# scripturonga
+chatgpt instalando dependencias
