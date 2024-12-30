@@ -3,6 +3,9 @@
 # Actualizar el sistema
 sudo apt update && sudo apt upgrade -y
 
+#Actualiza la hora y fecha del servidor
+sudo timedatectl set-timezone America/Argentina/Buenos_Aires
+
 # Instalar paquetes necesarios
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
 
